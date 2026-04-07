@@ -12,12 +12,12 @@ https://auzair-17.github.io/berotot-gym/
 
 ## Screenshots
 
-![Home Page](./screenshots/homepage.png)
-![Programs Section](./screenshots/trending.png)
-![Choose-us Section](./screenshots/all-movies.png)
-![Pricing Section](./screenshots/all-movies.png)
-![Calculate-BMI Section](./screenshots/all-movies.png)
-![Footer Section](./screenshots/all-movies.png)
+![Home Page](./screenshots/Home.png)
+![Programs Section](./screenshots/our-programs.png)
+![Choose-us Section](./screenshots/choose-us.png)
+![Pricing Section](./screenshots/pricing.png)
+![Calculate-BMI Section](./screenshots/calculate-bmi.png)
+![Footer Section](./screenshots/footer.png)
 
 ---
 
