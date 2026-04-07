@@ -24,7 +24,7 @@ if (navClose) {
 navLinks.forEach((navLink) =>
   navLink.addEventListener("click", () => {
     navMenu.classList.remove("display-menu");
-  })
+  }),
 );
 
 // On scroll change navbar background
@@ -78,7 +78,7 @@ const calculateBmi = function (e) {
 };
 bmiForm.addEventListener("submit", calculateBmi);
 
-// ========================== Calculate BMI ==========================
+// ========================== Email Handling ==========================
 const emailForm = document.getElementById("contact-form"),
   emailInput = document.getElementById("contact-user"),
   formMessage = document.getElementById("contact-message");
@@ -121,7 +121,7 @@ const scrollActive = function () {
       sectionTop = curSection.offsetTop - 58,
       sectionId = curSection.getAttribute("id"),
       sectionClass = document.querySelector(
-        `.nav__menu a[href*= ${sectionId}]`
+        `.nav__menu a[href*= ${sectionId}]`,
       );
 
     if (scrollY > sectionTop && scrollY <= sectionTop + curSectionHeight) {
@@ -144,7 +144,7 @@ const showScrollUp = function () {
 };
 window.addEventListener("scroll", showScrollUp);
 
-// ========================== Show Scroll Up ========================
+// ========================== Scroll Reveal ========================
 const sr = ScrollReveal({
   origin: "top",
   distance: "60px",
